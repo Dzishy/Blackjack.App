@@ -29,7 +29,7 @@ class Dealer ():
         print (f'\nDealer is set with a total of {len(self.hand)} cards.')
         
     def getHandValue (self):
-        self.handValue = 0        # we need to set it to 0 again, because every time we deal cards the value in the init method will we not 0, and we need 0.
+        self.handValue = 0        # we need to set it to 0 again, because every time we deal cards the value in the init method will be not 0, and we need 0.
         aceInHand = False
         
         for card in self.hand:

@@ -11,6 +11,7 @@ class Game ():
         while betting:
             bet = int (input ('What would you like to bet (minimum bet of $20): '))
             if bet < 20:
+                print ("Your bet is too low. We raised your bet up to $20.")
                 bet = 20
                 
             if bet > self.money:
